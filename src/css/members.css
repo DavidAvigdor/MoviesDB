@@ -1,0 +1,106 @@
+.Add_Member-Input_Container {
+  width: fit-content;
+  display: grid;
+  justify-content: flex-end;
+
+  column-gap: 10px;
+  grid-template-columns: repeat(1, auto);
+  text-align: left;
+}
+.Edit_Member-Buttons_Container {
+  position: relative;
+  text-align: center;
+  display: block;
+  margin-bottom: 15px;
+  padding-top: 15px;
+}
+.Edit_Member-Genres_Format_ToolTip {
+  position: absolute;
+  top: 12.5rem;
+  right: 40px;
+  font-size: 18px !important;
+  color: gray;
+}
+.Edit_Member-Info_Container {
+  width: fit-content;
+  display: grid;
+  grid-auto-columns: min-content;
+  justify-content: flex-end;
+  column-gap: 10px;
+  grid-template-columns: repeat(1, auto);
+  text-align: left;
+}
+.Edit_Member-Header {
+  justify-content: center;
+  font-size: 70px;
+  font-weight: bold;
+}
+.Edit_Member-Main_Div {
+  position: relative;
+  left: 50%;
+  display: inline-block;
+  transform: translateX(-50%);
+  padding-top: 20px;
+  width: fit-content;
+  text-align: center;
+}
+
+.Edit_Member-Main-Div_Container {
+  position: absolute;
+  border: 5px solid black;
+  width: 70%;
+  margin-left: 90px;
+  border-radius: 20px;
+  top: 15%;
+
+  justify-content: center;
+}
+.Member_Info-Buttons_Container {
+  display: grid;
+  grid-auto-columns: min-content;
+  justify-content: flex-start;
+  column-gap: 10px;
+  grid-template-columns: repeat(2, auto);
+}
+.Member_Info-Subscribe_New_Container {
+  width: 70%;
+  margin-top: 15px;
+  display: grid;
+  grid-template-columns: 5fr 5fr;
+
+  justify-content: flex-start;
+  column-gap: 10px;
+  row-gap: 10px;
+}
+.Member_Info-Main_Div {
+  margin-left: 20px;
+  padding-bottom: 20px;
+}
+.Member_Info-Movies_Watched_Container {
+  margin-left: 50px;
+}
+.Member_Info-Member_Movies_Watched_Div {
+  font-size: 40px;
+}
+.Member_Info-Member_Name {
+  font-size: 50px;
+}
+.Members-Buttons_Container {
+  display: grid;
+  grid-auto-columns: min-content;
+  row-gap: 5px;
+  justify-content: flex-start;
+  column-gap: 10px;
+  margin-bottom: 20px;
+  padding-left: 150px;
+  grid-template-columns:
+    fit-content(20%) fit-content(20%) fit-content(60%)
+    fit-content(10%);
+}
+.Members-Content {
+  position: absolute;
+  border: 5px solid black;
+  width: 70%;
+  margin-left: 100px;
+  border-radius: 20px;
+}

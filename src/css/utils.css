@@ -1,0 +1,103 @@
+.bold-title {
+  font-weight: bold;
+}
+.center {
+  position: absolute;
+  left: 50%;
+  top: 30%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+}
+.mr-1 {
+  margin-right: 5px;
+}
+.ml-1 {
+  margin-left: 5px;
+}
+.mt-1 {
+  margin-top: 5px;
+}
+.mr-2 {
+  margin-right: 10px;
+}
+.ml-2 {
+  margin-left: 10px;
+}
+.mt-2 {
+  margin-top: 10px;
+}
+.mr-3 {
+  margin-right: 15px;
+}
+.ml-3 {
+  margin-left: 15px;
+}
+.mt-3 {
+  margin-top: 15px;
+}
+.mr-4 {
+  margin-right: 20px;
+}
+.ml-4 {
+  margin-left: 20px;
+}
+.mt-4 {
+  margin-top: 20px;
+}
+.cursor-def {
+  cursor: default;
+}
+.grid2by2 {
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  row-gap: 5px;
+  justify-content: flex-start;
+  column-gap: 10px;
+}
+input[type="checkbox"] {
+  transform: scale(1.5);
+}
+
+.Add_Invalid_ToolTip::after {
+  position: absolute;
+  margin: auto;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: 14px;
+  content: "Invalid Input";
+
+  width: 80px;
+  height: 18px;
+  top: -1.3em;
+  left: 11.2em;
+
+  background-color: rgba(128, 128, 128, 0.37);
+  border-radius: 5px;
+  transform: scale(0);
+  transition: all 100ms ease-in;
+  transform-origin: bottom;
+}
+.confirm_abort-button_div {
+  margin-bottom: 20px;
+  padding-top: 10px;
+}
+.fix-width {
+  min-width: 232px;
+  max-width: 232px;
+}
+.Add_Movie-Genres_Format_ToolTip {
+  position: absolute;
+  font-size: 12px !important;
+  color: gray;
+  z-index: 1;
+  width: fit-content;
+  left: 0.5em;
+  top: 26.5em;
+}
+.User_Data-Data_Container {
+  padding-bottom: 10px;
+}
+.borderr {
+  border-radius: 10px;
+}

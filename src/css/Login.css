@@ -1,0 +1,10 @@
+.Login-Inputs_Container {
+  width: fit-content;
+}
+.Login-Passwords_Container {
+  position: relative;
+  justify-content: flex-end;
+}
+.Login-New_User_Container {
+  margin-top: 15px;
+}

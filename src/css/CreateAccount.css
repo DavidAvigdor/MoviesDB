@@ -1,0 +1,15 @@
+.InputGrid {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+
+  justify-content: flex-start;
+}
+.Create_Account-Main_Div {
+  position: absolute;
+  top: 30%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+.Create_Account-Create_Account_Button_Container {
+  text-align: center;
+}

@@ -1,0 +1,47 @@
+.inp {
+  background: inherit;
+  font-size: inherit;
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+.btn--primary {
+  color: white;
+  background-color: hsl(200, 100%, 50%);
+  transition: background-color 100ms ease-in;
+}
+.btn--danger {
+  color: white;
+  background-color: hsl(0, 100%, 50%);
+  transition: background-color 100ms ease-in;
+}
+.btn--danger:hover {
+  background-color: hsl(0, 100%, 35%);
+}
+.btn--primary:hover {
+  background-color: hsl(200, 100%, 35%);
+}
+.btn--information {
+  background-color: hsla(53, 98%, 50%, 0.816) !important;
+  border-color: hsla(53, 98%, 50%, 0.816) !important;
+}
+.btn--information:active,
+.btn--information:focus {
+  box-shadow: 0 0 0 0.2rem hsla(53, 98%, 50%, 0.441) !important;
+}
+.btn--information:hover {
+  background-color: hsla(53, 99%, 46%, 0.816) !important;
+  border-color: hsla(53, 99%, 46%, 0.816) !important;
+}
+.clickable {
+  cursor: pointer;
+}
+.btn {
+  transition: background-color 100ms ease-in !important;
+  padding: 0px 10px 0px 10px !important;
+  color: black !important;
+  font-weight: bold !important;
+}
+.Success-Button {
+  color: white !important;
+}

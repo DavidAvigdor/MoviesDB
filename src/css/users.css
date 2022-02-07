@@ -1,0 +1,89 @@
+.Add_User-Input_Container {
+  position: relative;
+  width: fit-content;
+  top: 2.5em;
+  justify-content: flex-end;
+  padding-left: 100px;
+  column-gap: 10px;
+  grid-template-columns: repeat(1, auto);
+}
+.Users-Content {
+  position: absolute;
+  border: 5px solid black;
+  width: 70%;
+  margin-left: 100px;
+  border-radius: 20px;
+}
+
+.User_Data-Buttons_Container {
+  display: grid;
+  grid-auto-columns: min-content;
+
+  justify-content: flex-start;
+  column-gap: 10px;
+
+  grid-template-columns: repeat(2, auto);
+}
+
+.Add_User-Main_Div {
+  padding: 30px;
+  padding-top: 15px;
+  position: relative;
+  left: 50%;
+  transform: translateX(-15%);
+}
+.Edit_User-Main-Div {
+  position: absolute;
+  border: 5px solid black;
+  width: 70%;
+  margin-left: 100px;
+  border-radius: 20px;
+}
+.Edit_User-Main_Div {
+  position: relative;
+  left: 50%;
+  display: inline-block;
+  transform: translateX(-50%);
+  padding-top: 20px;
+  width: fit-content;
+  text-align: center;
+}
+.Users-Buttons_Container {
+  display: grid;
+  grid-auto-columns: min-content;
+  row-gap: 5px;
+  justify-content: flex-start;
+  column-gap: 10px;
+  margin-bottom: 20px;
+  padding-left: 150px;
+  grid-template-columns:
+    fit-content(20%) fit-content(20%) fit-content(60%)
+    fit-content(10%);
+}
+.User_Data-Data_Container {
+  column-gap: 40px;
+}
+.User_Data-Premissions {
+  float: right;
+}
+.Add_User-Header {
+  justify-content: center;
+  font-size: 70px;
+  font-weight: bold;
+}
+.Edit_User-Premissions_Grid {
+  column-gap: 20px;
+  text-align: left;
+}
+.Edit_User-Main-Div_Container {
+  position: absolute;
+  border: 5px solid black;
+  width: 70%;
+  margin-left: 90px;
+  border-radius: 20px;
+  top: 10%;
+  justify-content: center;
+}
+.Edit_User-Buttons_Container {
+  margin-bottom: 20px;
+}
